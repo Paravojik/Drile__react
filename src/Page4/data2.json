@@ -1,0 +1,31 @@
+[
+    {
+        "Page2__card__img":"Page4__card__img__type1",
+        "name":"Vasagle Vanity Table",
+        "price":" $1,200.00",
+        "img":"./page2__imgs/page2__img.png"
+      
+    },
+    {   
+        "Page2__card__img":"Page4__card__img__type2",
+        "name":"Adkins Dressing Table",
+        "price":"$899.00",
+        "img":"./page2__imgs/page2__img.png"
+    },
+    {   
+        "Page2__card__img":"Page4__card__img__type3",
+        "name":"Hironpal Dressing Table",
+        "price":"$350.00",
+        "img":"./page2__imgs/page2__img.png"
+    },
+    {   
+        "Page2__card__img":"Page4__card__img__type4",
+        "name":"Deco Dressing Table",
+        "price":"$800.00",
+        "img":"./page2__imgs/page2__img.png"
+    }
+
+
+    
+
+]

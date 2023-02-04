@@ -1,0 +1,70 @@
+[
+    {
+        "Page2__card__img":"Page2__card__img__type1",
+
+        "name":"Metal Vintage Pendant",
+        "price":"$79.00",
+        "img":"./page2__imgs/page2__img.png",
+        "isTrue__redCard":"Page2__extra__redCard",
+        "redSign":"-5%",
+        "yellow":"HOT"
+    },
+    {   
+        "Page2__card__img":"Page2__card__img__type2",
+        "name":"Klosh Table Clock",
+        "price":"$99.00",
+        "img":"./page2__imgs/page2__img.png",
+        "isTrue__redCard":"none",
+        "redSign":"none",
+        "yellow":"none"
+    },
+    {   
+        "Page2__card__img":"Page2__card__img__type3",
+        "name":"Arne Dining Chair",
+        "price":"$350.00",
+        "img":"./page2__imgs/page2__img.png",
+        "isTrue__redCard":"none",
+        "redSign":"none",
+        "yellow":"none"
+    },
+    {   
+        "Page2__card__img":"Page2__card__img__type4",
+        "name":"Klosh Wall Clock",
+        "price":"$80.00 – $129.00",
+        "img":"./page2__imgs/page2__img.png",
+        "isTrue__redCard":"none",
+        "redSign":"none",
+        "yellow":"HOT"
+    },
+    {   
+        "Page2__card__img":"Page2__card__img__type5",
+        "name":"Modern Outdoor Chair",
+        "price":"$79.00",
+        "img":"./page2__imgs/page2__img.png",
+        "isTrue__redCard":"Page2__extra__redCard",
+        "redSign":"-20%",
+        "yellow":"HOT"
+    },
+    {   
+        "Page2__card__img":"Page2__card__img__type6",
+        "name":"Vipp Wool Pillow",
+        "price":"$99.00",
+        "img":"./page2__imgs/page2__img.png",
+        "isTrue__redCard":"none",
+        "redSign":"none",
+        "yellow":"none"
+    },
+    {   
+        "Page2__card__img":"Page2__card__img__type7",
+        "name":"Modern Bedroom Storage",
+        "price":"$499.00",
+        "img":"./page2__imgs/page2__img.png",
+        "isTrue__redCard":"Page2__extra__redCard",
+        "redSign":"-17%",
+        "yellow":"HOT"
+    }
+
+
+    
+
+]

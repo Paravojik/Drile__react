@@ -1,4 +1,6 @@
 import './Page4.css'
+import "./Page4__cards/Page4__cards.css"
+import data from './data2.json'
 import Leftstr from '../img/page1__leftStr.png'
 import Rightstr from '../img/page1__rightStr.png'
 import img from './Page4__imgs/Page4__img1.png'
@@ -8,10 +10,20 @@ import img3 from './Page4__imgs/Page4__img3.png'
 import img4 from './Page4__imgs/Page4__img4.png'
 import img5 from './Page4__imgs/Page4__img5.png'
 
-import Card1 from './Page4__cards/Page4__card1.js'
-import Card2 from './Page4__cards/Page4__card2.js'
-import Card3 from './Page4__cards/Page4__card3.js'
-import Card4 from './Page4__cards/Page4__card4.js'
+import card__img1 from './Page4__imgs/Page4__cardImg1.png'
+import card__img2 from './Page4__imgs/Page4__cardImg2.png'
+import card__img3 from './Page4__imgs/Page4__cardImg3.png'
+import card__img4 from './Page4__imgs/Page4__cardImg4.png'
+import card__icon1 from './Page4__imgs/page2__card__img.png'
+import card__icon2 from './Page4__imgs/page2__card__img2.png'
+import card__icon3 from './Page4__imgs/page2__card__img3.png'
+setTimeout(function(){
+    document.getElementById('Page4__card__img__type1').src=card__img1
+    document.getElementById('Page4__card__img__type2').src=card__img2
+    document.getElementById('Page4__card__img__type3').src=card__img3
+    document.getElementById('Page4__card__img__type4').src=card__img4
+},100)
+
 function Page4(){
     return(
             <div className='Page4'>
@@ -48,11 +60,32 @@ function Page4(){
                 </div>
                     <div className='Page4__bot'>
                         <div className='Page4__bot__main'>
+                         {   data.map(item=>
+      <div className="Page4__card__type1">
+      {/* <div className="Page4__extra__yellowCard">HOT</div>
+<div className="Page4__extra__redCard">-5%</div> */}
+<div className="Page4__catd__icons">
+<div className="Page4__catd__icons__block">
+<img className="Page4__catd__icons__icon" src={card__icon1} alt="" />
+</div>
 
-                            <Card1/>
-                            <Card2/>
-                            <Card3/>
-                            <Card4/>
+<div className="Page4__catd__icons__block">
+<img className="Page4__catd__icons__icon" src={card__icon2} alt="" />
+</div>
+<div className="Page4__catd__icons__block">
+<img className="Page4__catd__icons__icon" src={card__icon3} alt="" />
+</div>
+</div>
+
+<img className="Page4__card__img" id={item.Page2__card__img} src={img} alt="" />
+<div className="Page4__card__text">{item.name}</div>
+<div className="Page4__card__price"> {item.price}</div>
+
+
+
+</div>
+                            )
+                 }
                         </div>
                     </div>
             </div>
