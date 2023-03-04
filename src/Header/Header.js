@@ -1,14 +1,26 @@
 import './Header.css'
-
+import React, { useState, useEffect } from 'react';
 import logo1 from '../img/header__img1.png'
 import logo2 from '../img/header__img2.png'
 import logo3 from '../img/header__img3.png'
+import night from '../img/night-mode.png'
 
 
 function Header() {
+    const [theme, setTheme] = useState('light');
+      const toggleTheme = () => {
+        if (theme === 'light') {
+          setTheme('dark');
+        } else {
+          setTheme('light');
+        }
+      };
+      useEffect(() => {
+        document.body.className = theme;
+      }, [theme]);
     return (
 
-<div className="Header">
+<div className={`Header ${theme}`}>
     
     <div className="header__name">Drile</div>
     <div className="header__list">
@@ -20,6 +32,7 @@ function Header() {
         <div className="header__list__item">Contact</div>
     </div>
     <div className="header__imgs">
+        <img className="header__imgs__img header__imgs__img__night" onClick={toggleTheme} src={night} alt="" />
         <img className="header__imgs__img" src={logo1} alt="" />
         <img className="header__imgs__img" src={logo2} alt="" />
         <img className="header__imgs__img" src={logo3} alt="" />

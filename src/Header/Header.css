@@ -15,7 +15,7 @@
     font-size: 38px;
     line-height: 55px;
     letter-spacing: -0.035em;
-    color: #565759;
+
 }
 .header__list{
     display: flex;
@@ -49,6 +49,17 @@ font-size: 16px;
     background-color: #565759;
     border-radius: 5px;
 }
+.header__imgs__img__night{
+    cursor: pointer;
+}
+.dark {
+    background-color: #333;
+    color: #fff;
+ }
+    .light {
+        background-color: #fff;
+        color: #565759;
+    }
 @media screen and (max-width:900px){
     .Header{
 

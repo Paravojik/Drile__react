@@ -13,3 +13,6 @@ flex-direction: column;
   
 
 }
+.blackInDarkMode{
+  background-color: white;
+}

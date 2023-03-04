@@ -1,7 +1,9 @@
 import './BlackSquare.css'
+
 function BlackSquare(){
+    
     return(
-        <div className='BlackSquare'>
+        <div className={`BlackSquare`}>
 
         </div>
     )
