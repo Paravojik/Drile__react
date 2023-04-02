@@ -4,11 +4,14 @@ import logo1 from '../img/header__img1.png'
 import logo2 from '../img/header__img2.png'
 import logo3 from '../img/header__img3.png'
 import night from '../img/night-mode.png'
-
+// import 'jquery'
+// import $ from 'jquery'
 
 function Header() {
+ 
     const [theme, setTheme] = useState('light');
       const toggleTheme = () => {
+    
         if (theme === 'light') {
           setTheme('dark');
         } else {
@@ -17,6 +20,8 @@ function Header() {
       };
       useEffect(() => {
         document.body.className = theme;
+        // $('.header__list__item').css('color','red')
+     
       }, [theme]);
     return (
 
@@ -24,7 +29,7 @@ function Header() {
     
     <div className="header__name">Drile</div>
     <div className="header__list">
-        <div className="header__list__item">Home</div>
+        <div className="header__list__item" >Home</div>
         <div className="header__list__item">Shop</div>
         <div className="header__list__item">Product</div>
         <div className="header__list__item">Blog</div>
